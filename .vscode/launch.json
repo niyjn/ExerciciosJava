@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Par",
+            "request": "launch",
+            "mainClass": "Par",
+            "projectName": "Java moaci_c4d11849"
+        },
+        {
+            "type": "java",
+            "name": "Calculadora",
+            "request": "launch",
+            "mainClass": "Calculadora",
+            "projectName": "Java moaci_c4d11849"
+        },
+        {
+            "type": "java",
+            "name": "Imc",
+            "request": "launch",
+            "mainClass": "Imc",
+            "projectName": "Java moaci_c4d11849"
+        },
+        {
+            "type": "java",
+            "name": "Media",
+            "request": "launch",
+            "mainClass": "Media",
+            "projectName": "Java moaci_c4d11849"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
