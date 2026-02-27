@@ -20,7 +20,7 @@ public class Veto {
     }
 
     private static int lerInteiro(Scanner sc) {
-        int valor = 0;
+        int valor;
         try {
             valor = sc.nextInt();
         } catch (InputMismatchException e) {
