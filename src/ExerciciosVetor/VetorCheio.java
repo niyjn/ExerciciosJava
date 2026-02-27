@@ -20,7 +20,7 @@ public class VetorCheio {
         System.out.println("Digite um número para ver se está na lista, dica: ");
 
         for(var bernardo : vetor) {
-            System.out.print(vetor.get(bernardo) + " ");
+            System.out.print(bernardo + " ");
         }
 
         System.out.println("");
