@@ -31,7 +31,7 @@ public class VetorCheio {
             System.out.println("Nao é um valor.");
             sfc.nextLine();
             val = sfc.nextInt();
-        }
+        } //nota: so pode errar uma vez, se errar 2 o programa explode, nao quis fazer loop
 
         if((vetor.contains(val))) {
             System.out.println("O valor " + val + " está contido.");
