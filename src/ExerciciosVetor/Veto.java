@@ -26,7 +26,7 @@ public class Veto {
         } catch (InputMismatchException e) {
             System.out.println("Entrada inválida. Digite um número inteiro.");
             sc.nextLine();
-            lerInteiro(sc);
+            valor = lerInteiro(sc);
         }
         return valor;
     }

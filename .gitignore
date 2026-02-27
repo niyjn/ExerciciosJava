@@ -1,0 +1,13 @@
+# IntelliJ IDEA files
+.idea/
+*.iml
+out/
+gen/
+
+# Compilados
+*.class
+*.jar
+*.war
+
+# VS Code
+.vscode/
