@@ -55,7 +55,7 @@ class Conta {
 
 public class SistemaBancoConta {
     public static void main(String[] args) {
-        Cliente cliente1 = new Cliente("João Silva", "123.456.789-00", 30);
+        Cliente cliente1 = new Cliente("Moacir Guedes", "123.456.789-00", 28);
         Conta conta1 = new Conta("001", 12345, cliente1);
 
         conta1.depositar(1000.00);
