@@ -11,15 +11,33 @@ Este repositório serve como um arquivo central para os diversos trabalhos e exe
 O código-fonte de todos os projetos está localizado no diretório `src/`. Para manter a organização e o isolamento entre os trabalhos, cada subdiretório dentro de `src/` representa um projeto ou um conjunto de exercícios independentes.
 
 ```
-C:.
-└───src
-    ├───ExerciciosMedia         (Exercícios de lógica e cálculos)
-    ├───ExerciciosPOO           (Projetos aplicando conceitos de POO)
-    └───ExerciciosVetor         (Exercícios com foco em manipulação de vetores)
-   
+src/
+├── ExerciciosMedia         (Exercícios de lógica e cálculos)
+├── ExerciciosPOO           (Projetos aplicando conceitos de POO)
+│   ├── Projeto_Escola      (Sistema de registro escolar)
+│   └── SistemaBanco        (Gerenciamento de contas bancárias)
+├── ExerciciosPOO2          (Sistemas avançados com foco em Clean Code)
+│   ├── Faculdade           (Gestão acadêmica com alta coesão)
+│   └── ProjetoLocadora     (Sistema de locação de filmes)
+└── ExerciciosVetor         (Exercícios com foco em manipulação de vetores)
 ```
 
 Essa estrutura modular permite que cada trabalho seja compilado e executado de forma independente, sem interferir nos demais.
+
+---
+
+## ✨ O que há de novo?
+
+### 🚀 Exercícios de POO2 (Object Calisthenics & Clean Code)
+
+Recentemente, foram adicionados projetos na pasta `ExerciciosPOO2` com foco em técnicas avançadas de design de software. Estes exercícios foram desenvolvidos aplicando os princípios do **Object Calisthenics** e **Clean Code**, visando criar um código mais legível, testável e de fácil manutenção.
+
+**Destaques das práticas aplicadas:**
+-   **Apenas um nível de indentação por método:** Reduzindo a complexidade ciclomática.
+-   **Não utilizar o 'ELSE':** Favorecendo o uso de *Early Returns* e polimorfismo.
+-   **Encapsulamento de tipos primitivos (Value Objects):** Uso de classes como `Nome`, `RegistroAcademico` e `Periodo` para evitar a obsessão por primitivos.
+-   **Classes e métodos pequenos:** Foco total na Responsabilidade Única (SRP).
+-   **Coleções de Primeira Classe:** Listas de alunos e professores encapsuladas em suas próprias classes de domínio.
 
 ---
 
@@ -45,7 +63,7 @@ Para compilar e executar qualquer um dos projetos contidos neste repositório, s
 
     *Exemplo para compilar todos os arquivos do `Projeto_Escola`:*
     ```sh
-    javac Projeto_Escola/*.java
+    javac ExerciciosPOO/Projeto_Escola/*.java
     ```
 
 4.  **Execute a classe principal:**
@@ -53,9 +71,7 @@ Para compilar e executar qualquer um dos projetos contidos neste repositório, s
 
     *Exemplo para executar o `Projeto_Escola`:*
     ```sh
-    java Projeto_Escola.Main
+    java ExerciciosPOO.Projeto_Escola.Main
     ```
 
 > **Nota:** O nome da classe principal (aquela que contém o método `public static void main(String[] args)`) pode variar entre os projetos. Verifique o código-fonte do projeto que você deseja executar para encontrá-la.
-
----
