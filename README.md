@@ -12,24 +12,15 @@ O código-fonte de todos os projetos está localizado no diretório `src/`. Para
 
 ```
 src/
-├── ExerciciosClasse        (Exercícios de Classes e Encapsulamento)
-│   ├── Animais             (Gestão de Animais e Espécies)
-│   ├── Biblioteca          (Sistema de Livros com Validação de Ano)
-│   └── Notas               (Sistema de Alunos com Saldo de Nota Limitado)
-├── ExerciciosConstrutor    (Foco em inicialização, Scanner e Desafios)
-│   ├── Leitura.java        (Entrada de dados com Scanner)
-│   ├── ListaRandom.java    (Manipulação de vetores com Random)
-│   ├── Produto.java        (Uso de construtores para objetos)
-│   └── Desafio             (Desafio LivroService com separação de camadas)
-├── ExerciciosMedia         (Exercícios de lógica e cálculos)
-├── ExerciciosPOO           (Projetos aplicando conceitos de POO)
-│   ├── Projeto_Escola      (Sistema de registro escolar)
-│   └── SistemaBanco        (Gerenciamento de contas bancárias)
-├── ExerciciosPOO2          (Sistemas avançados com foco em Clean Code)
-│   ├── Faculdade           (Gestão acadêmica com alta coesão)
-│   └── ProjetoLocadora     (Sistema de locação de filmes)
-├── ExerciciosVetor         (Exercícios com foco em manipulação de vetores)
-└── Lista                   (Coleção de exercícios clássicos de POO)
+├── ExerciciosClasse
+├── ExerciciosConstrutor
+├── ExerciciosMedia
+├── ExerciciosPOO
+├── ExerciciosPOO2
+├── ExerciciosVetor
+├── Heranca
+├── Lista
+└── Polimorfismo
 ```
 
 Essa estrutura modular permite que cada trabalho seja compilado e executado de forma independente, sem interferir nos demais.
@@ -38,12 +29,9 @@ Essa estrutura modular permite que cada trabalho seja compilado e executado de f
 
 ## ✨ O que há de novo?
 
-Adicionada uma nova coleção de exercícios no diretório `src/Lista`, focados na modelagem de sistemas do cotidiano utilizando Programação Orientada a Objetos. Os destaques incluem:
-
--   **Bomba de Combustível**: Gerenciamento de abastecimento, preços e controle de estoque de litros.
--   **Elevador**: Lógica de movimentação entre andares com validação de capacidade e peso.
--   **Login**: Sistema de autenticação robusto com validação de senha e bloqueio após exceder o limite de tentativas.
--   **Outros Exercícios**: Modelagem de **Conta Bancária**, **Contato**, **Dado**, **Estoque**, **Lâmpada**, **Playlist** e **Termômetro**, explorando conceitos de encapsulamento e estados de objeto.
+-   **Herança**: Exercícios focados em especialização de classes e reutilização de código, incluindo sistemas de gestão de funcionários (`Empresa`) e conceitos de geometria.
+-   **Polimorfismo**: Implementação de comportamentos dinâmicos através de sobrescrita de métodos, exemplificado em sistemas de veículos (`Carrinho`) e manipulação de formas geométricas.
+-   **Lista**: Coleção de exercícios focados na modelagem de sistemas do cotidiano, como **Bomba de Combustível**, **Elevador** e **Sistema de Login**.
 
 ---
 
