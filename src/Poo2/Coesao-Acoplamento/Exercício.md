@@ -100,3 +100,6 @@ class Relatorio {
 }
 
 ```
+## Por que?
+
+Alta coesão agrupa responsabilidades, centralizando a lógica em uma fonte única. Isso torna o código fácil de encontrar. Baixo acoplamento minimiza dependências, permitindo reutilizar essa lógica em qualquer lugar sem arrastar bagagem desnecessária. Juntos, eles garantem a facilidade de reaproveitar o código, aplicando o princípio DRY com sucesso.
